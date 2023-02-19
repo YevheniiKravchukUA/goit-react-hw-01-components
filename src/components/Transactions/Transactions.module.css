@@ -1,0 +1,40 @@
+.transactions {
+  display: block;
+
+  border: 1px solid black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.head {
+  display: block;
+
+  height: 50px;
+
+  background-color: beige;
+
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.headItem {
+  width: 200px;
+
+  padding: 10px;
+}
+
+.row:nth-child(2n) {
+  background-color: gainsboro;
+}
+
+.bodyItem {
+  width: 200px;
+
+  text-align: center;
+
+  padding: 10px;
+}
+
+.type {
+  font-weight: 600;
+}

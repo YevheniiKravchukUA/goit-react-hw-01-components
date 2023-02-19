@@ -1,0 +1,44 @@
+.list {
+  list-style: none;
+
+  border: 1px solid black;
+  border-radius: 20px;
+
+  background-color: beige;
+
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+
+  width: 300px;
+
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 20px;
+
+  padding: 10px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.status {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+
+  margin-right: 20px;
+}
+
+.image {
+  margin-right: 20px;
+}
+
+.name {
+  font-weight: 700;
+}
